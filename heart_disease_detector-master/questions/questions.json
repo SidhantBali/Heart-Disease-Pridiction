@@ -1,0 +1,163 @@
+{
+    "age": {
+        "question": "How old are you?",
+        "field_type": {
+            "int": {}
+        }
+    },
+    "sex": {
+        "question": "Your gender is ",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "Male",
+                    "value": 1
+                },
+                {
+                    "text": "Female",
+                    "value": 0
+                }
+            ]
+        }
+    },
+    "cp": {
+        "question": "Chest pain type?",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "Typical angina",
+                    "value": 1
+                },
+                {
+                    "text": "Atypical angina",
+                    "value": 2
+                },
+                {
+                    "text": "Non-anginal pain",
+                    "value": 3
+                },
+                {
+                    "text": "Asymptomatic",
+                    "value": 4
+                }
+            ]
+        }
+    },
+    "trestbps": {
+        "question": "Resting blood pressure (in mm Hg on admission to the hospital)",
+        "field_type": {
+            "int": {}
+        }
+    },
+    "chol": {
+        "question": "Serum cholesterol in mg/dl",
+        "field_type": {
+            "int": {}
+        }
+    },
+    "fbs": {
+        "question": "Fasting blood sugar more then 120 mg/dl?",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "True",
+                    "value": 1
+                },
+                {
+                    "text": "False",
+                    "value": 0
+                }
+            ]
+        }
+    },
+    "restecg": {
+        "question": "Resting electrocardiographic results is",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "Normal",
+                    "value": 0
+                },
+                {
+                    "text": "Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)",
+                    "value": 1
+                },
+                {
+                    "text": "Showing probable or definite left ventricular hypertrophy by Estes' criteria",
+                    "value": 2
+                }
+            ]
+        }
+    },
+    "thalach": {
+        "question": "Maximum heart rate achieved",
+        "field_type": {
+            "int": {}
+        }
+    },
+    "exang": {
+        "question": "Exercise induced angina",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "True",
+                    "value": 1
+                },
+                {
+                    "text": "False",
+                    "value": 0
+                }
+            ]
+        }
+    },
+    "oldpeak": {
+        "question": "ST depression induced by exercise relative to rest",
+        "field_type": {
+            "float": {}
+        }
+    },
+    "slope": {
+        "question": "The slope of the peak exercise ST segment ",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "Upsloping",
+                    "value": 1
+                },
+                {
+                    "text": "Flat",
+                    "value": 2
+                },
+                {
+                    "text": "Downsloping",
+                    "value": 3
+                }
+            ]
+        }
+    },
+    "ca": {
+        "question": "Number of major vessels (0-3) colored by flourosopy?",
+        "field_type": {
+            "int": {}
+        }
+    },
+    "thal": {
+        "question": "Thal",
+        "field_type": {
+            "radio": [
+                {
+                    "text": "Normal",
+                    "value": 3
+                },
+                {
+                    "text": "Fixed defect",
+                    "value": 6
+                },
+                {
+                    "text": "Reversable defect",
+                    "value": 7
+                }
+            ]
+        }
+    }
+}

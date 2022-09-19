@@ -1,0 +1,10 @@
+__pycache__/
+.vs/*
+.vscode/
+venv/
+.venv_windows/
+*.pyc
+test.py
+test1.py
+.github/
+dataset/new_results.data
